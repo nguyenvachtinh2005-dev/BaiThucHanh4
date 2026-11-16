@@ -1,0 +1,21 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:products": "node product-service/app.js",
+    "start:orders": "node order-service/app.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22.13.0" },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
